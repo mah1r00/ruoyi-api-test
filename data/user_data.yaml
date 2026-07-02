@@ -1,0 +1,35 @@
+﻿# 用户管理 - 测试数据
+
+# 新增用户
+add_user:
+  # 正常新增
+  normal:
+    userName: test_user_001
+    nickName: 测试用户
+    password: 123456
+    phonenumber: "13800138001"
+    email: test001@ruoyi.com
+    sex: "0"
+    status: "0"
+    roleIds: [2]
+    postIds: [1]
+    deptId: 100
+
+  # 重复用户名
+  duplicate_username:
+    userName: admin
+    password: 123456
+    phonenumber: "13800138002"
+    email: test002@ruoyi.com
+    sex: "0"
+    status: "0"
+
+  # 手机号已存在
+  duplicate_phone:
+    userName: test_user_003
+    password: 123456
+    phonenumber: "13800138001"
+    email: test003@ruoyi.com
+    sex: "0"
+    status: "0"
+

@@ -1,0 +1,15 @@
+﻿# 若依接口自动化测试 - 配置文件
+base_url: http://localhost:8080
+
+# 登录账号
+login:
+  username: admin
+  password: admin123
+  code: ""
+  uuid: ""
+
+# Token 配置
+token:
+  header: Authorization
+  type: Bearer
+

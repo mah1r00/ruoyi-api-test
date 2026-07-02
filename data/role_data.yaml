@@ -1,0 +1,9 @@
+﻿# 角色管理 - 测试数据
+
+add_role:
+  normal:
+    roleName: test_role_001
+    roleKey: test_role_001
+    roleSort: 10
+    status: "0"
+    menuIds: [1, 2, 3]
